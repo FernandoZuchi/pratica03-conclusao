@@ -1,54 +1,44 @@
 # Documento de Requisitos do Sistema de Gerenciamento de Projetos (SGP) - Etapa Final
 
-Este documento detalha os requisitos da terceira e última etapa do Sistema de Gerenciamento de Projetos (SGP), focando na finalização e consolidação das funcionalidades implementadas nas fases anteriores. O objetivo principal desta etapa é garantir que o sistema esteja completamente funcional, otimizado e pronto para uso em ambiente profissional.
+Este documento detalha os requisitos da terceira e última etapa do Sistema de Gerenciamento de Projetos (SGP), focando na finalização e consolidação total das funcionalidades e requisitos implementados nas fases anteriores. O objetivo principal desta etapa é garantir que o sistema esteja completamente funcional, otimizado e pronto para uso em ambiente profissional. Será feita uma dinâmica de apresentação geral do projeto após essa última entrega
+
+Dicas:
+- Implemente *todos* requisitos solicitados na etapa 1 & 2
+- Implemente funcionalidades que achar conveniente para o projeto, os requisitos dessa etapa serão mais simples e de finalização, para que assim vocês possam dar mais identidade ao projeto de vocês implementando coisas que estão além da documentação.
+- Use a documentação do sistema como forma de práticar para a apresentação final do projeto.
 
 
 ## Objetivo
 
-Nesta terceira etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (SGP), o foco será na finalização, otimização e documentação completa do sistema. O objetivo é garantir que o projeto esteja pronto para ser utilizado em um ambiente real, atendendo a todas as boas práticas de desenvolvimento e estando preparado para futuras escalas.
-
-
-## Estrutura do Projeto 
-
-```
-- 📂gerenciamento-projetos
-  - 📂backend
-    - Container(Docker)
-      - Middleware personalizado
-      - Autenticação JWT
-      - Manipulação de Streams
-      - Testes 
-  - 📂frontend
-    - Container(Docker)
-      - Dashboard interativo
-      - Integração com APIs de terceiros
-      - Filtros e bloqueios baseados em permissões
-      
-```
+Nesta terceira etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (SGP), o foco será em implementações livres, finalização, otimização e documentação do sistema. O objetivo é garantir que o projeto esteja pronto para ser utilizado em um ambiente real, atendendo a todas as boas práticas de desenvolvimento e requisitos anteriores. O participante terá liberdade para implementar funcionalidades adicionais que agreguem valor ao projeto.
 
 ## **Tarefas de Consolidação e Completude**
 
 ### **Refinamento da Interface de Usuário**
 
-- Descrição: Revisar e aprimorar a interface para garantir que seja intuitiva, responsiva e acessível. **Implementar melhorias visuais e de usabilidade com base em feedback recebido durante as fases anteriores**
+- Descrição: Revisar a interface garantindo que seja intuitiva, responsiva e acessível. Implementar melhorias visuais e de usabilidade, como design consistente, ajustes de cores, tipografia adequada e aprimoramento de acessibilidade para diferentes dispositivos.
 - Local: Frontend
 
 ### **Otimização do Código**
 
-- Descrição: Realizar uma revisão completa do código para identificar e eliminar redundâncias, melhorar a organização e refatorar trechos que possam ser otimizados. Garantir que todas as funções e métodos sejam bem documentados e seguidos de boas práticas de programação..
+- Descrição: Revisar e refatorar o código para eliminar redundâncias, melhorar a organização e eficiência. Garantir que o código siga padrões como Clean Code, incluindo comentários claros e documentação interna. Melhorar a performance em áreas identificadas como críticas.
 - Local: Backend + Frontend
 
 ### **Aumento da Segurança**
-- Descrição: Implementar criptografia de dados sensíveis no banco de dados. Revisar e reforçar a segurança nas rotas, especialmente aquelas que lidam com dados críticos. Garantir que todas as entradas de usuários sejam validadas e sanitizadas para evitar vulnerabilidades.
-- Local: Backend
+- Descrição: Implementar criptografia para dados sensíveis, como senhas e informações pessoais. Revisar a segurança das rotas, aplicando autenticação e autorização adequadas. Implementar proteção contra vulnerabilidades comuns como injeções SQL, XSS e CSRF. Validar e sanitizar todas as entradas de usuários.
+- Local: Backend + Frontend
 
 ### **Escalabilidade e Manutenção**
-- Descrição: Desenvolvimento de middlewares para manipulação de erros, validação de dados e autenticação. Esses middlewares garantirão uma camada adicional de segurança e controle, interceptando requisições antes de atingirem os endpoints principais.
-- Local: Backend
+- Descrição: Otimizar o sistema para suportar mais usuários e projetos sem perda de desempenho. Implementar técnicas de cache, otimização de consultas ao banco de dados, e garantir que o sistema seja facilmente escalável. Revisar a arquitetura para garantir que seja sustentável e de fácil manutenção a longo prazo.
+- Local: Backend + Frontend
 
 ### **Documentação Completa**
 - Descrição: Desenvolver uma documentação abrangente do projeto, incluindo guias de instalação, configuração, e uso. Criar um manual do usuário que detalhe como utilizar todas as funcionalidades do sistema.
 - Local: Backend + Frontend
+
+### **Implementação de Testes Unitários e de Integração**
+- Descrição:  Implementar testes unitários e de integração para garantir que as funcionalidades do sistema estejam funcionando corretamente e que a comunicação entre os diferentes módulos esteja fluida. Os testes unitários devem cobrir funções e métodos isolados, garantindo que cada unidade de código execute conforme o esperado. Já os testes de integração devem validar a interação entre os diferentes componentes do sistema, como API, banco de dados, e outras dependências.
+- Local: Backend
 
 ## **Entrega/Avaliação** 
 Nesta etapa final, o foco principal será avaliar a completude e a qualidade/valor do projeto, além de como você aplicou os conceitos ao longo do desenvolvimento
@@ -83,6 +73,8 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 | [ ] | Implementação de Testes   |  F B  |
 | [ ] | Aumento da segurança   |  F B  |
 | [ ] | Escabilidade e Manutenibilidade   |  F B  |
+| [ ] | Escabilidade e Manutenibilidade   |  F B  |
+| [ ] | Implementação de Testes Unitários e de Integração   |   B  |
 
 
 
